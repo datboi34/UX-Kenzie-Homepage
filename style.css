@@ -98,6 +98,7 @@ a {
 .submit-container {
   text-align: center;
 }
+
 /* desktop styles */
 @media (width: 550px) {
   /* base */
