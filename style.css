@@ -1,3 +1,5 @@
+/*mobile 320px*/
+/* base */
 body {
   font-family: "Nunito", sans-serif;
 }
@@ -39,12 +41,13 @@ hr {
   margin-top: 50px;
   width: 100%;
 }
-.navigation-bar li,
+/* layout */
+.header-nav li,
 a {
   text-decoration: none;
 }
 
-.navigation-bar a:hover {
+.header-nav a:hover {
   text-decoration: underline;
 }
 
@@ -81,10 +84,6 @@ a {
   padding: 5px;
 }
 
-.submit-container {
-  text-align: center;
-}
-
 .submit-container_button {
   border: solid black 1px;
   background-color: white;
@@ -93,4 +92,15 @@ a {
   border-radius: 2px;
   width: 8em;
   display: inline-block;
+}
+
+/* block */
+.submit-container {
+  text-align: center;
+}
+/* desktop styles */
+@media (width: 550px) {
+  /* base */
+  /* layout */
+  /* block */
 }
