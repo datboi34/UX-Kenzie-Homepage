@@ -1,23 +1,28 @@
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
-h1 {
+h1,
+h2 {
   text-align: center;
+}
+h1 {
   font-size: 200%;
 }
 
 h2 {
-  text-align: center;
   font-weight: 100;
   font-size: 110%;
+}
+
+h3 {
+  font-size: 200%;
 }
 
 nav {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-
 }
 
 nav li {
@@ -29,25 +34,63 @@ nav li {
   text-decoration: underline;
 }
 
-.blue-button {
-  background-color: blue;
-  text-decoration: none !important;
+hr {
+  color: rgb(180, 189, 199);
+  margin-top: 50px;
+  width: 100%;
+}
+.navigation-bar li,
+a {
+  text-decoration: none;
+}
+
+.navigation-bar a:hover {
+  text-decoration: underline;
+}
+
+.Design-career {
+  text-align: center;
+}
+
+.Schedule-button {
+  background-color: rgb(87, 11, 150);
+  text-decoration: none;
   color: white;
   padding: 0.5em;
-  border-radius: 6px;
+  border-radius: 4px;
   width: 8em;
   text-align: center;
   display: inline-block;
-} 
+}
 
-.signup-form form input[type=submit] {
-  border: none;
-  background-color: blue;
-  text-decoration: none !important;
-  color: white;
-  padding: 0.5em;
-  border-radius: 6px;
-  width: 8em;
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.full-name input {
+  padding: 5px;
+}
+.signup-form input {
+  margin: 5px;
+}
+.form-email,
+.form-phone {
+  width: 93%;
+  padding: 5px;
+}
+
+.submit-container {
   text-align: center;
+}
+
+.submit-button {
+  border: solid black 1px;
+  background-color: white;
+  color: purple;
+  padding: 0.5em;
+  border-radius: 2px;
+  width: 8em;
   display: inline-block;
 }
